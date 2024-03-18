@@ -1,0 +1,121 @@
+
+/* form{
+    margin : 1rem;
+    width:40rem;
+} */
+
+form input{
+    width: 100%;
+    padding:.8rem .5rem;
+    margin-block:1rem;
+}
+
+form label{
+    text-align:left;
+    font-weight:900;
+
+}
+
+
+.idCard{
+    width:204px;
+    height:324px;
+    border:1px solid black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.idCard .header{
+    background-color: navy;
+    height:6rem;
+    width:100%;
+    border-radius: 10px  10px 0 0;
+    /* padding-block:.8rem; */
+    
+}
+
+.empty{
+    height:.7rem;
+    width:4rem;
+    background-color: white;
+    border-radius:.8rem;
+    margin:auto;
+    margin-top:.7rem ;
+    
+}
+
+.idCard .header .imgContainer{
+    width:70%;
+    background-color: white;
+    position: relative;
+    top:.6rem; 
+    margin: auto;
+    
+}
+
+img{
+    width: 140px;
+    height:140px;
+}
+
+.idCard .header .imgContainer img{
+    width: 100%;
+    
+}
+
+span{
+    display:block;
+}
+
+
+.badge-info{
+    margin-top:5rem;
+    padding-inline:.5rem;
+    /* color: darkgray; */
+}
+
+.badge-info > span{
+    font-weight:900;
+    font-size:1.1rem;
+    text-align:center;
+}
+
+.flex-container{
+    display:flex;
+    justify-content:space-between;
+    gap:.2rem
+}
+
+.flex-container .right{
+    width:30%;
+    background-color:balck
+}
+
+.flex-container .left{
+    width:70%;
+}
+.flex-container .right img{
+    width:100%;
+    max-width:60px;
+    max-height:60px;
+}
+.bottom{
+    height:3rem;
+    background-color:navy;
+    color: white;
+    border-radius: 0 0 10px  10px;    
+    line-height:3rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.companyName {
+    text-align:center;
+    font-weight:900;
+    font-size:1.1rem
+}
