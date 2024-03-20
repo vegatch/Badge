@@ -1,4 +1,4 @@
-// import logo from './logo.svg';
+import React from 'react';
 import Form from './components/formFolder/Form';
 import './App.css';
 
